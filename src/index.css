@@ -4,7 +4,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #5fa823d4;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #010101;
@@ -135,8 +135,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
+  border: 5px solid var(--dark);
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
@@ -207,7 +206,7 @@ textarea {
 }
 
 .my-5 {
-  margin-top: var(--spacing-five);
+  margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-five);
 }
 

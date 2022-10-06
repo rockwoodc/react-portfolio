@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from "../../assets/logos/Logo-white.png";
+
 
 function Nav() {
 
@@ -6,7 +8,11 @@ function Nav() {
     <header>
         <a href="/">
         {/* insert Logo in far left */}
-            <span role="img"></span>
+        <img
+            src={logo}
+            alt="Christian Rockwod logo"
+            class="img-logo"
+          ></img>
         </a>
 
         <nav>
