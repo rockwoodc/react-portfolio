@@ -1,4 +1,4 @@
-main {
+/* main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
@@ -118,6 +118,7 @@ nav {
 
 nav a:hover {
   text-decoration: none;
+  color: var(--primary)
 }
 
 nav  li {
@@ -251,4 +252,4 @@ footer img {
 
 footer img:hover {
 	opacity: 0.5;
-}
+} */
