@@ -1,11 +1,16 @@
 import { useState } from "react";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import ContactForm from "./pages/Contact";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
-import Main from './components/Main'
+import Main from './components/Main';
+import ReactDOM from 'react-dom'
+
+
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
 
 function App() {
    const [page, setPage]= useState('about')
