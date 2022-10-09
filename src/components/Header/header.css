@@ -1,0 +1,11 @@
+.navbar-nav .resume.nav-link.active{
+    color: rgba(0, 0, 0, 0.55);
+  }
+
+  .navbar-nav .resume.nav-link.active:hover{
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+
+
+

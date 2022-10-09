@@ -32,26 +32,44 @@ function ContactForm() {
   };
 
   return (
-   
     <Form>
-      <Form.Group className="mb-3" >
+      <Form.Group className="mb-3">
         <Form.Label>Name:</Form.Label>
-        <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="First Last"/>
+        <Form.Control
+          type="text"
+          name="name"
+          defaultValue={name}
+          onBlur={handleChange}
+          placeholder="First Last"
+        />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address:</Form.Label>
-        <Form.Control type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="name@example.com" />
+        <Form.Control
+          type="email"
+          name="email"
+          defaultValue={email}
+          onBlur={handleChange}
+          placeholder="name@example.com"
+        />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Message:</Form.Label>
-        <Form.Control as="textarea" defaultValue={message} onBlur={handleChange} rows={5} />
+        <Form.Control
+          as="textarea"
+          defaultValue={message}
+          onBlur={handleChange}
+          rows={5}
+        />
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
       </Form.Group>
-      <Button data-testid="button" type="submit" variant="primary">Submit</Button>
+      <Button className="btn" data-testid="button" type="submit" variant="secondary">
+        Submit
+      </Button>
     </Form>
   );
 }

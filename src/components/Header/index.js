@@ -7,8 +7,9 @@ import Navbar from "react-bootstrap/Navbar";
 function Header({ setPage }) {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">
+      <Navbar sticky="top" />
+      <Container className="justify-content-end">
+        <Navbar.Brand onClick={() => setPage("about")}>
           <img src={logo} alt="Christian Rockwood's logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +18,7 @@ function Header({ setPage }) {
             <Nav.Link onClick={() => setPage("about")}>About</Nav.Link>
             <Nav.Link onClick={() => setPage("projects")}>Projects</Nav.Link>
             <Nav.Link onClick={() => setPage("contact")}>Contact</Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1KPlmN-6G_qksg0fLXC47Df11Ky5uMEOf/view?usp=sharing"  target="_blank" rel="noreferrer">
+            <Nav.Link className="resume" href="https://drive.google.com/file/d/1KPlmN-6G_qksg0fLXC47Df11Ky5uMEOf/view?usp=sharing"  target="_blank" rel="noreferrer">
               Resume
             </Nav.Link>
           </Nav>
