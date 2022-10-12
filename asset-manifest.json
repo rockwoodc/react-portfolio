@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f17e2add.css",
+    "main.js": "/react-portfolio/static/js/main.1d6e8b4b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/cover-image.jpg": "/react-portfolio/static/media/cover-image.312c2508e2ed2d69b132.jpg",
+    "static/media/horizeon.png": "/react-portfolio/static/media/horizeon.6bcea5d4cfa91456e93f.png",
+    "static/media/rvahotspot.png": "/react-portfolio/static/media/rvahotspot.d97006fc76d8ce00dfa8.png",
+    "static/media/runbuddy.png": "/react-portfolio/static/media/runbuddy.2519b7b4496aabeb59ec.png",
+    "static/media/taskmaster.png": "/react-portfolio/static/media/taskmaster.3897976dc54095b71314.png",
+    "static/media/leashleague.png": "/react-portfolio/static/media/leashleague.1eefa63725e04f4b16f9.png",
+    "static/media/passwordgenerator.png": "/react-portfolio/static/media/passwordgenerator.60856374ba374e44cb91.png",
+    "static/media/Logo-white.png": "/react-portfolio/static/media/Logo-white.02d583d26d98a97b80e5.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f17e2add.css.map": "/react-portfolio/static/css/main.f17e2add.css.map",
+    "main.1d6e8b4b.js.map": "/react-portfolio/static/js/main.1d6e8b4b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f17e2add.css",
+    "static/js/main.1d6e8b4b.js"
+  ]
+}
