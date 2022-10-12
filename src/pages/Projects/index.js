@@ -12,7 +12,8 @@ import "./projects.css"
 function Projects() {
   return (
     <div class="card-group">
-      <div class="card m-4">
+    <container>
+      <div class="card">
         <Card.Img
           variant="top"
           src={hotspot}
@@ -51,8 +52,9 @@ function Projects() {
           </Card.Link>
         </div>
       </div>
+    </container>  
       <container>
-        <div class="card m-4">
+        <div class="card">
           <Card.Img
             variant="top"
             src={leash}
@@ -92,8 +94,9 @@ function Projects() {
           </div>
         </div>
       </container>
-
-      <div class="card m-4">
+<div className="container">
+  <div className="row">
+      <div class="card small-card col-6">
         <Card.Img
           variant="top"
           src={task}
@@ -127,7 +130,7 @@ function Projects() {
         </div>
       </div>
 
-      <div class="card m-4">
+      <div class="card small-card col-6">
         <Card.Img
           variant="top"
           src={runbuddy}
@@ -157,10 +160,11 @@ function Projects() {
           >
             GitHub
           </Card.Link>
+          </div>
         </div>
       </div>
-
-      <div class="card m-4">
+    <div className="row">
+      <div class="card small-card col-6">
         <Card.Img
           variant="top"
           src={password}
@@ -195,7 +199,7 @@ function Projects() {
         </div>
       </div>
 
-      <div class="card m-4">
+      <div class="card small-card col-6">
         <Card.Img
           variant="top"
           src={horizeon}
@@ -229,6 +233,8 @@ function Projects() {
           >
             GitHub
           </Card.Link>
+          </div>
+          </div>
         </div>
       </div>
     </div>
