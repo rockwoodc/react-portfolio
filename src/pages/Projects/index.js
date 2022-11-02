@@ -4,7 +4,7 @@ import hotspot from "../../assets/projects/rvahotspot.png";
 import leash from "../../assets/projects/leashleague.png";
 import task from "../../assets/projects/taskmaster.png";
 import password from "../../assets/projects/passwordgenerator.png";
-import horizeon from "../../assets/projects/horizeon.png";
+import projectChoice from "../../assets/projects/pc.png";
 import runbuddy from "../../assets/projects/runbuddy.png";
 import Card from "react-bootstrap/Card";
 import "./projects.css"
@@ -202,32 +202,27 @@ function Projects() {
       <div class="card small-card col-6">
         <Card.Img
           variant="top"
-          src={horizeon}
-          alt="homepage of Horiseon"
+          src={projectChoice}
+          alt="homepage of Project Choice"
           class="img-thumbnail"
         />
         <div class="card-body">
-          <h5 class="card-title">Horiseon</h5>
+          <h5 class="card-title">Project Choice</h5>
           <p class="card-text">
-            This document is my first challenge for University of Richmond's
-            Coding Boot Camp. In this assignment I was asked to ensure that
-            Horiseon's webpage followed accessibilty standards and that it was
-            optimized for search engines. This meant that I had to ensure that
-            CSS & HTML elements were in an organized structure and that each
-            item was in sequential order.
+            Project Choice is an application that by filling out a simple form, users are connected to clinics closest to them, laws in their surrounding areas, and resources. There is also a shop where users can buy Project Choice Merchandise. All proceeds from the shop go to Planned Parenthood.
             <br></br>
             <br></br>
-            This project was made using basic HTML & CSS.
+            This project was made using React, State, Stripe and Bcrypt.
           </p>
           <Card.Link
-            href="https://rockwoodc.github.io/Horiseon-Website-Refactoring/"
+            href="https://project-choice.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
             Website
           </Card.Link>
           <Card.Link
-            href="https://github.com/rockwoodc/Horiseon-Website-Refactoring"
+            href="https://github.com/rockwoodc/project-choice"
             target="_blank"
             rel="noreferrer"
           >
